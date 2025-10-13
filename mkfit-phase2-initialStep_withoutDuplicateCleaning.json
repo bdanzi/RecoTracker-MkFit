@@ -16,7 +16,7 @@
  "sc_dzmax_bh": 0.004999999888241291,
  "sc_drmax_extbh": 0.009999999776482582,
  "sc_dzmax_extbh": 0.004999999888241291,
- "sc_drmax_fbh":0.019999999552965164, 
+ "sc_drmax_fbh":0.019999999552965164,
  "sc_dzmax_fbh": 0.019999999552965164,
  "sc_drmax_eh": 0.019999999552965164,
  "sc_dzmax_eh": 0.019999999552965164,
@@ -32,10 +32,16 @@
  "sc_dzmax_el": 0.029999999329447746,
  "sc_drmax_extfl": 0.029999999329447746,
  "sc_dzmax_extfl": 0.029999999329447746,
- "dc_fracSharedHits": 0.23999999463558197,
+ "dc_fracSharedHits_central": 0.23999999463558197,
+ "dc_fracSharedHits_obarrel": 0.23999999463558197,
+ "dc_fracSharedHits_forwbarrel": 0.23999999463558197,
+ "dc_fracSharedHits_forward": 0.23999999463558197,
+ "dc_fracSharedHits_extforward":0.23999999463558197,
  "dc_drth_central": 0.0020000000949949026,
  "dc_drth_obarrel": 0.004000000189989805,
+ "dc_drth_forwbarrel": 0.004000000189989805,   
  "dc_drth_forward": 0.00800000037997961,
+ "dc_drth_extforward": 0.00800000037997961,   
  "m_params": {
   "nlayers_per_seed": 4,
   "maxCandsPerSeed": 6,
@@ -122,7 +128,7 @@
    "m_region": 0,
    "m_fwd_search_pickup": 2,
    "m_bkw_fit_last": 0,
-   "m_bkw_search_pickup": 3
+   "m_bkw_search_pickup": 5
   },
   {
    "m_layer_plan": [
@@ -163,22 +169,22 @@
      "m_layer": 45
     },
     {
-     "m_layer": 5
-    },
-    {
      "m_layer": 4
     },
     {
-     "m_layer": 7
+     "m_layer": 5
     },
     {
      "m_layer": 6
     },
     {
-     "m_layer": 9
+     "m_layer": 7
     },
     {
      "m_layer": 8
+    },
+    {
+     "m_layer": 9
     },
     {
      "m_layer": 10
@@ -199,41 +205,41 @@
      "m_layer": 15
     },
     {
-     "m_layer": 51
-    },
-    {
      "m_layer": 50
     },
     {
-     "m_layer": 53
+     "m_layer": 51
     },
     {
      "m_layer": 52
     },
     {
-     "m_layer": 55
+     "m_layer": 53
     },
     {
      "m_layer": 54
     },
     {
-     "m_layer": 57
+     "m_layer": 55
     },
     {
      "m_layer": 56
     },
     {
-     "m_layer": 59
+     "m_layer": 57
     },
     {
      "m_layer": 58
+    },
+    {
+     "m_layer": 59
     }
    ],
    "m_track_scorer_name": "",
    "m_region": 1,
    "m_fwd_search_pickup": 2,
    "m_bkw_fit_last": 0,
-   "m_bkw_search_pickup": 4
+   "m_bkw_search_pickup": 15
   },
   {
    "m_layer_plan": [
@@ -250,22 +256,22 @@
      "m_layer": 3
     },
     {
-     "m_layer": 5
-    },
-    {
      "m_layer": 4
     },
     {
-     "m_layer": 7
+     "m_layer": 5
     },
     {
      "m_layer": 6
     },
     {
-     "m_layer": 9
+     "m_layer": 7
     },
     {
      "m_layer": 8
+    },
+    {
+     "m_layer": 9
     },
     {
      "m_layer": 10
@@ -290,7 +296,7 @@
    "m_region": 2,
    "m_fwd_search_pickup": 2,
    "m_bkw_fit_last": 0,
-   "m_bkw_search_pickup": 2
+   "m_bkw_search_pickup": 7
   },
   {
    "m_layer_plan": [
@@ -331,22 +337,22 @@
      "m_layer": 23
     },
     {
-     "m_layer": 5
-    },
-    {
      "m_layer": 4
     },
     {
-     "m_layer": 7
+     "m_layer": 5
     },
     {
      "m_layer": 6
     },
     {
-     "m_layer": 9
+     "m_layer": 7
     },
     {
      "m_layer": 8
+    },
+    {
+     "m_layer": 9
     },
     {
      "m_layer": 10
@@ -367,41 +373,41 @@
      "m_layer": 15
     },
     {
-     "m_layer": 29
-    },
-    {
      "m_layer": 28
     },
     {
-     "m_layer": 31
+     "m_layer": 29
     },
     {
      "m_layer": 30
     },
     {
-     "m_layer": 33
+     "m_layer": 31
     },
     {
      "m_layer": 32
     },
     {
-     "m_layer": 35
+     "m_layer": 33
     },
     {
      "m_layer": 34
     },
     {
-     "m_layer": 37
+     "m_layer": 35
     },
     {
      "m_layer": 36
+    },
+    {
+     "m_layer": 37
     }
    ],
    "m_track_scorer_name": "",
    "m_region": 3,
    "m_fwd_search_pickup": 2,
    "m_bkw_fit_last": 0,
-   "m_bkw_search_pickup": 4
+   "m_bkw_search_pickup": 15
   },
   {
    "m_layer_plan": [
@@ -452,7 +458,7 @@
    "m_region": 4,
    "m_fwd_search_pickup": 2,
    "m_bkw_fit_last": 0,
-   "m_bkw_search_pickup": 3
+   "m_bkw_search_pickup": 5
   }
  ],
  "m_layer_configs": [
